@@ -1,0 +1,22 @@
+<mj-hero
+         mode="fluid-height"
+         height="179px"
+         background-width="600px"
+         background-height="179px"
+         background-url="https://i.imgur.com/dlzsV2c.jpg"
+         background-color="#141414"
+         css-class="header">
+  <mj-hero-content width="100%">
+    <mj-text>
+      <p class="header__title">
+        Awesome<br>
+        Email
+      </p>
+    </mj-text>
+    <mj-text>
+    	<p class="header__sub-title">
+      	The email that you look forward to.
+      </p>  
+    </mj-text>
+  </mj-hero-content>
+</mj-hero>

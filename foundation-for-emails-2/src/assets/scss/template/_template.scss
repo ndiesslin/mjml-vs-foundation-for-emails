@@ -1,0 +1,110 @@
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: $black;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: $black;
+  background: url('https://i.imgur.com/dlzsV2c.jpg');
+
+  /* Small only */
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    background: $black !important; // Important for overriding inky defaults
+  }
+
+  .large-12 { 
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      padding: 0;
+      padding-bottom: 25px !important; // Important for overriding inky defaults
+    }
+  }
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  margin: 0;
+}
+
+.header .wrapper-inner {
+  padding: 8px 20px;
+}
+
+.header .container, .footer .container {
+  background: transparent;
+}
+
+.header .header__title, .header .header__sub-title { 
+  color: $white; 
+  margin: 0 72px; 
+
+  /* Small only */
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    margin: 0 !important; // Important for overriding inky defaults
+  }
+}
+
+.header__title {
+  font-size: 39px; 
+  font-weight: 900; 
+  line-height: 1.125;
+  //padding-top: 25px;
+}
+
+.header__sub-title {
+  line-height: 1;
+  //padding-bottom: 25px;
+}
+
+// Footer
+.footer {
+  background: $black;
+
+  td.large-12.last, th.large-12.last {
+    padding: 10px 25px;
+    padding: {
+      left: 25px;
+      right: 25px;
+    }
+  }
+
+  p {
+    color: $white;
+    margin-bottom: 0;
+  }
+}
+
+// Overriding default styles for 12 column rendering funny
+td.large-12.last, th.large-12.last {
+  padding: 25px 50px;
+  padding: {
+    left: 50px;
+    right: 50px;
+  }
+}
+
+td.large-6.first, th.large-6.first {
+  padding-left: 50px;
+}
+
+td.large-6.last, th.large-6.last {
+  padding-right: 50px;
+}
+
+img {
+  margin-bottom: 20px;
+}
