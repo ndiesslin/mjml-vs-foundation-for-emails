@@ -14,4 +14,4 @@ This repo include a directory for MJML and for Foundation For Emails 2.
 
 ### Who do I talk to? ###
 
-* nick diesslin [ndiesslin@augeomarketing.com](mailto:ndiesslin@augeomarketing.com "That fun guy nick").
+* nick diesslin [nicholasdiesslin@gmail.com](mailto:nicholasdiessiln@gmail.com "That fun guy nick").
